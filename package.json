@@ -1,0 +1,49 @@
+{
+  "name": "vue-scroller-dm",
+  "version": "1.0.5",
+  "description": "基于vue 2.0 下拉组件",
+  "main": "./config/dist/vue-super-scroller.js",
+  "author": {
+    "name": "dingsaonian",
+    "email": "740148050@qq.com"
+  },
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+    "prepublish": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/wohaofang/vue-scroller-dm/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "cross-env": "^3.1.3",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^1.6.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "url-loader": "^0.5.7",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^2.1.0-beta.28",
+    "webpack-merge": "^1.1.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
